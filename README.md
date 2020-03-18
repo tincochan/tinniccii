@@ -2,18 +2,7 @@
 
 Scriptor is a simple, minimal, clean & responsive Jekyll theme for writers.
 
-[Live Demo](https://scriptor-jekyll.netlify.com/) &nbsp; | &nbsp; [Download](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme/archive/master.zip) &nbsp;
 
-![Scriptor-Jekyll-Theme](images/scriptor-jekyll.png)
-
-## Features
-
-+ Responsive design
-+ Archive organized by [tags](https://scriptor-jekyll.netlify.com/tags/)
-+ Disqus Comments
-+ Accent color options
-+ [Prism](https://prismjs.com/) syntax highlighter
-+ Stackbit [Uniform support](https://docs.stackbit.com/uniform/)
 
 ## Deployment
 
