@@ -12,7 +12,7 @@ lang: en-US
 title: "Tinniccii"
 
 # A description of your site for meta tag, search engine results.
-description: "中文Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "这里是我自建的博客主页，感谢你的来访和阅读。"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
