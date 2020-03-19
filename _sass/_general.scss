@@ -1,6 +1,8 @@
 /* ==========================================================================
    2. General
    ========================================================================== */
+  
+@import url('https://fonts.font.im/css?family=Yantramanav:500');
 
 html,
 button,
@@ -123,7 +125,7 @@ pre {
   background: _palette(bg);
   border: 1px solid _palette(border);
   border-radius: 3px;
-  font-family: Consolas, "Andale Mono", "Courier New", Courier, monospace;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 0.88889rem;
   margin: 0 0 1.875em;
   overflow: auto;
@@ -135,7 +137,7 @@ pre {
   background: _palette(bg);
   border: 1px solid _palette(border);
   border-radius: 3px;
-  font-family: Consolas, "Andale Mono", "Courier New", Courier, monospace;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 0.88889rem;
   padding: 1px 3px;
   white-space: pre;
