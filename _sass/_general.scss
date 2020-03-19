@@ -2,7 +2,7 @@
    2. General
    ========================================================================== */
   
-@import url('https://fonts.font.im/css?family=Yantramanav:500');
+   @import url('https://fonts.font.im/css?family=Roboto:400,400i,500,500i,700');
 
 html,
 button,
@@ -103,6 +103,8 @@ h6 {
 
 p {
   margin: 0 0 1.66667em;
+  font-size: 0.85rem;
+  font-weight: 500
 }
 
 address {
@@ -125,7 +127,7 @@ pre {
   background: _palette(bg);
   border: 1px solid _palette(border);
   border-radius: 3px;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.88889rem;
   margin: 0 0 1.875em;
   overflow: auto;
@@ -137,7 +139,7 @@ pre {
   background: _palette(bg);
   border: 1px solid _palette(border);
   border-radius: 3px;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.88889rem;
   padding: 1px 3px;
   white-space: pre;

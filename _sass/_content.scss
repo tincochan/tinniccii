@@ -3,25 +3,25 @@
    ========================================================================== */
 
 .post {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 0.8px solid _palette(border);
   padding: 3.33333em 0 1.66667em;
 }
 
 .post-header {
-  margin-bottom: 1.66667em;
+  margin-bottom: 1.2rem;
 }
 
 .post-date {
   color: _palette(meta);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 1.25em;
 }
 
 .post-meta {
   font-family: _font(secondary);
-  font-size: 0.88889rem;
+  font-size: 0.7rem;
   font-style: italic;
   margin-bottom: 1.11111rem;
 }
@@ -35,7 +35,7 @@
 }
 
 .post-title {
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin: 0 0 1rem;
 
   @media only screen and (max-width: 600px) {
@@ -85,6 +85,7 @@
 
     p {
       margin-bottom: 1em;
+      font-size: 1rem
     }
   }
 
@@ -126,7 +127,8 @@
     border-radius: 3px;
     color: _palette(primary);
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
     margin-bottom: 0.5em;
     margin-right: 5px;
     padding: 3px 10px;

@@ -25,7 +25,7 @@
 
 // Font.
 $font: (
-  primary: ('Yantramanav', sans-serif),
+  primary: ('Roboto', sans-serif),
   secondary: ("Noto Sans SC",sans-serif)
 );
 
@@ -33,9 +33,9 @@ $font: (
 {% assign accent = site.accent_color | default: '#2d72d9' %}
 $palette: (
   accent:    {{ accent }},
-  primary:   #6b747a,
-  secondary: #2c343c,
-  meta:      #9ba6ad,
+  primary:   #000000,
+  secondary: #000000,
+  meta:      #0B0B61,
   border:    #d7d7d7,
   bg:        #fbfbfb
 );
