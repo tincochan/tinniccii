@@ -28,11 +28,11 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
+  - text: 主页
     url: /
-  - text: About
+  - text: 关于我
     url: /about/
-  - text: Tags
+  - text: 归档标签
     url: /tags/
 
 # The shortname for your Disqus site to enable comments.
