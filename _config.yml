@@ -9,7 +9,7 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Tinniccii"
 
 # A description of your site for meta tag, search engine results.
 description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
@@ -32,12 +32,8 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
   - text: Tags
     url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
