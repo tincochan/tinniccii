@@ -1,33 +1,26 @@
 ---
 layout: post
-title: "中文试一试Graphic Designer On The Road"
+title: "年末我会买哪款主机，PS5还是Xbox Series X"
 description: "A graphic designer is a professional within the graphic design and graphic arts industry."
-date: 2020-01-05
-feature_image: images/road.jpg
-tags: [tips, work]
+date: 2020-03-20
+feature_image: images/2020-3-20.jpg
+tags: [游戏]
 ---
 
-这里试一试中文A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed or electronic media, such as brochures (sometimes) and advertising. They are also sometimes responsible for typesetting, illustration, user interfaces, web design, or take a teaching position. A core responsibility of the designer's job is to present information in a way that is both accessible and memorable.
+** **
+
+> ** ** ** **微软如果下决心扩大收编第一方工作室尤其是挖独立工作室的数量，下一代主机索尼迟早要跪了，硬件微软还是没有悬念胜出。索尼目前唯一能打的就是顽皮狗和圣莫妮卡，目前拉个小岛秀夫《死亡搁浅》只能说及格分，完全比不了当年PS2《战神》石破天惊的感觉，更比不了自己的《合金装备》123还有和平行者，PS5索尼还是要靠这三家放大招，小岛秀夫压力巨大，当然《战神》北欧系列是PS5保驾没得跑了，顽皮狗可能会再起《神海》，至于日本工作室没有金牌制作人加盟就是扶不起的阿斗，肯定索尼拿银子找大腿去了，而微软一个《光环》的群众基础就够喝一壶了。 #我看好叉盒子
 
 <!--more-->
 
-A degree or certificate from an accredited trade school is usually considered essential for a graphic design position. After a career history has been established, though, the graphic designer's experience and number of years in the business are considered the primary qualifications. A portfolio, which is the primary method for demonstrating these qualifications, is usually required to be shown at job interviews, and is constantly developed throughout a designer's career. [[Source](https://en.wikipedia.org/wiki/Graphic_designer)]
+** ** ** **次世代的主机之战微软已经开始亮出了手上的明牌，当索尼和微软双方公布PS5和Xbox Series X最新消息的时候，我难以掩饰内心的兴奋之情，第一时间在豆瓣主页上发表了自己的看法。
 
-Ice molecules can exhibit up to sixteen different phases *(packing geometries)* that depend on temperature and pressure. When water is cooled rapidly (quenching), up to three different types of amorphous ice can form depending on the history of its pressure and temperature. When cooled slowly correlated proton tunneling occurs below 20 K giving rise to macroscopic quantum phenomena. Virtually all the ice on Earth's surface and in its atmosphere is of a hexagonal crystalline structure denoted as ice Ih (spoken as "ice one h") with minute traces of cubic ice denoted as ice Ic. The most common phase transition to ice Ih occurs when liquid water is cooled below 0°C (273.15K, 32°F) at standard atmospheric pressure. It may also be deposited directly by water vapor, as happens in the formation of frost. The transition from ice to water is melting and from ice directly to water vapor is sublimation.
+** ** ** **事实上，尽管微软财大气粗，硬件实力雄厚，但是索尼在世代主机大战中一直都是占据上风，强大的日系游戏市场和第一方工作室的支撑恰恰是微软在游戏市场的软肋，当然两个大厂在此前共同的错误是忽视了独立游戏市场的巨大潜力（虽然都是嘴上说说大力扶持独立游戏，但是似乎第一时间并没有在独立工作室的收编上迈出太大的步子）。不过后来微软似乎想明白了这个问题，硬件抢尽风头的同时或许要把最后也是最大的杀招留个自己的嫡系部队。
 
-## Characteristics
+> ** ** ** **为什么我对微软这么乐观呢，因为我太看好黑曜石了，《猎魔人3》《神界·原罪2》的强势彻底给欧美RPG的复苏打了一剂强心针。
 
-As a naturally-occurring crystalline inorganic solid with an ordered structure, ice is considered a mineral.[citation needed] It possesses a regular crystalline structure based on the molecule of water, which consists of a single oxygen atom covalently bonded to two hydrogen atoms, or H-O-H. However, many of the physical properties of water and ice are controlled by the formation of hydrogen bonds between adjacent oxygen and hydrogen atoms; while it is a weak bond, it is nonetheless critical in controlling the structure of both water and ice.
+** ** ** **要知道不少人买PS4的原因是因为《血源诅咒》和《战神》，之前的微软在索尼锋芒毕露这段时期显得很疲软，但是PS5发售在即索尼似乎犯了一个错误：举个例子来说，顽皮狗的《最后生还者2》的发售日期相当尴尬，PS5首发必然会迎来顽皮狗的缺席，而圣莫妮卡的《战神》北欧系列的第二作也至少等到2022年去了。我并不是硬件发烧友，也不是偏执的派系厨玩家，我一直认为独占游戏是微软迎战索尼最为肾虚的领域，所以三家当中我最欣赏的也是索尼，但是年末的索尼所面临的情况已经和往常有所不同，或许我个人对索尼的期待是“黑马”吧。
 
-> “ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
-> <cite>― Haruki Murakami</cite>
+** ** ** **微软的向下兼容和XGP不香吗？还有《光环》等着我啊不是吗？希望Xbox价格不要太贵吧，看看这次微软能拿出什么样的独占游戏吧，如果不出意外我是会选择优先购买Xbox的。
 
-An unusual property of ice frozen at atmospheric pressure is that the solid is approximately 8.3% less dense than liquid water. The density of ice is 0.9167 g/cm3 at 0 °C,[4] whereas water has a density of 0.9998 g/cm³ at the same temperature. Liquid water is densest, essentially 1.00 g/cm³, at 4 °C and becomes less dense as the water molecules begin to form the hexagonal crystals[5] of ice as the freezing point is reached. This is due to hydrogen bonding dominating the intermolecular forces, which results in a packing of molecules less compact in the solid. Density of ice increases slightly with decreasing temperature and has a value of 0.9340 g/cm³ at −180 °C (93 K).[6]
-
-When water freezes, it increases in volume (about 9% for freshwater).[7] The effect of expansion during freezing can be dramatic, and ice expansion is a basic cause of freeze-thaw weathering of rock in nature and damage to building foundations and roadways from frost heaving. It is also a common cause of the flooding of houses when water pipes burst due to the pressure of expanding water when it freezes.
-
-The result of this process is that ice *(in its most common form)* floats on liquid water, which is an important feature in Earth's biosphere. It has been argued that without this property, natural bodies of water would freeze, in some cases permanently, from the bottom up,[8] resulting in a loss of bottom-dependent animal and plant life in fresh and sea water. Sufficiently thin ice sheets allow light to pass through while protecting the underside from short-term weather extremes such as wind chill. This creates a sheltered environment for bacterial and algal colonies. When sea water freezes, the ice is riddled with brine-filled channels which sustain sympagic organisms such as bacteria, algae, copepods and annelids, which in turn provide food for animals such as krill and specialised fish like the bald notothen, fed upon in turn by larger animals such as emperor penguins and minke whales.
-
-When ice melts, it absorbs as much energy as it would take to heat an equivalent mass of water by 80 °C. During the melting process, the temperature remains constant at 0 °C. While melting, any energy added breaks the hydrogen bonds between ice (water) molecules. Energy becomes available to increase the thermal energy (temperature) only after enough hydrogen bonds are broken that the ice can be considered liquid water. The amount of energy consumed in breaking hydrogen bonds in the transition from ice to water is known as the heat of fusion.
-
-As with water, ice absorbs light at the red end of the spectrum preferentially as the result of an overtone of an oxygen-hydrogen (O-H) bond stretch. Compared with water, this absorption is shifted toward slightly lower energies. Thus, ice appears blue, with a slightly greener tint than for liquid water. Since absorption is cumulative, the color effect intensifies with increasing thickness or if internal reflections cause the light to take a longer path through the ice.
+** ** ** **

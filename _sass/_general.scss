@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: _palette(secondary);
+  color: _palette(primary);
   font-family: _font(secondary);
   font-weight: bold;
   line-height: 1.2;
@@ -152,7 +152,6 @@ blockquote {
   border-left: 3px solid _palette(secondary);
   color: _palette(secondary);
   font-family: _font(secondary);
-  font-style: italic;
   margin: 0 0 1.66667em -30px;
   padding: 0 0 0 30px;
 
