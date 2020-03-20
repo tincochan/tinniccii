@@ -33,7 +33,7 @@ feature_image:
 
 ** ** ** **数据分析和算法相关：python以及相关工具包numpy、pandas、tensorflow和theano
 
-** **另外我很喜欢主机游戏和各种球类运动。
+** **另外我很喜欢主机游戏和各种球类运动，同时我也是一名翻译爱好者。
 
 ** **最后要强调的是，博客的所有文字类容版权所属于[Tinco Chan](https://douban.com/tincochan)，博客的搭建基于jekyll的[Scriptor](https://jekyllthemes.io/theme/scriptor)，github page的部署工作通过第三方的Stackbit完成。
 
