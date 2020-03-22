@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "年末我会买哪款主机，PS5还是Xbox Series X"
-description: "A graphic designer is a professional within the graphic design and graphic arts industry."
+description: "似乎看起来微软占得先机？"
 date: 2020-03-20
 feature_image: images/2020-3-20.jpg
 tags: [游戏]
