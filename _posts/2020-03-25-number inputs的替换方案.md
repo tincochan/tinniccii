@@ -20,6 +20,6 @@ tags: [前端]
 
 ```inputmode```能够保证手机端能够根据输入框的属性弹出适合的数字输入键盘。```type="text" inputmode="numeric"```比起单纯的```type="number"```（比如```<a>``` ```<code>```）来说更能够胜任特定的场景需要，因为前者有诸如```maxlength```， ```minlength```或者```pattern```这样的属性定制输入框的内容。
 
-![inputmode-01](D:/tinniccii/images/2020-3-25/inputmode-01.png)
+![inputmode-01](../images/2020-3-25/inputmode-01.png)
 
 补充知识：[html针对不同场景相关的自动填充属性列表链接](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#Values)。
