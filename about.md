@@ -5,6 +5,10 @@ description: An optional about page for Tinniccii
 feature_image: 
 ---
 
+![about](./images/about.jpg)
+
+
+
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
 ##### 一、
