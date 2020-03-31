@@ -294,6 +294,11 @@ video {
   display: table;
 }
 
+/*markdown mathJax*/
+.MathJax span{
+  font-size: 0.9rem;
+}
+
 /* Text meant only for screen readers */
 .screen-reader-text {
   border: 0 none;
