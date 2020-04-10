@@ -59,7 +59,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 在endpoint的配置这里用到了```withSockJS()```，主要是面对一些或许不支持websocket的浏览器时（几乎不存在），sockJS能够产生回调函数。
 
-**STOMP**：Simple (or Streaming) Text Orientated Messaging Protocol，简单(流)文本定向消息协议，它提供了一个可互操作的连接格式，允许STOMP客户端与任意STOMP消息代理（Broker）进行交互。这里我们使用STOMP协议的相关方法处理消费服务。
+STOMP：Simple (or Streaming) Text Orientated Messaging Protocol，简单(流)文本定向消息协议，它提供了一个可互操作的连接格式，允许STOMP客户端与任意STOMP消息代理（Broker）进行交互。这里我们使用STOMP协议的相关方法处理消费服务。
 
 接下来就是涉及消息的发送和接收：以```/app```为前缀的地址为消息处理站，```/topic```则为消息分发站，发送给各个订阅者。
 
