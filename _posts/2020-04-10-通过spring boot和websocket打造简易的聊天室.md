@@ -55,7 +55,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 这里有几个要点：
 
-```@EnableWebSocketMessageBroker```用于配置启动websocket服务端，这里需要继承```WebSocketMessageBrokerConfigurer```接口进行配置。
+其中```@EnableWebSocketMessageBroker```用于配置启动websocket服务端，这里需要继承```WebSocketMessageBrokerConfigurer```接口进行配置。
 
 在endpoint的配置这里用到了```withSockJS()```，主要是面对一些或许不支持websocket的浏览器时（几乎不存在），sockJS能够产生回调函数。
 
