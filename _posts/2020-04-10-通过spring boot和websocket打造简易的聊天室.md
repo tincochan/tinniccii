@@ -692,3 +692,11 @@ button.accent {
 ```
 
 接下来就是运行了。源代码部分在我的[github](https://github.com/tincochan/spring-boot-websocket-chat)里面。
+
+
+
+## 值得一提的部分
+
+我在用vue（node.js环境）写websocket的并不能直接使用html5原生的websocket方法，我不知道为什么也有可能是我哪里搞错了，正常来说静态网页搭建的话肯定是可以的。而ws依赖包只能用于node.js环境并不能直接用于浏览器客户端，这里需要安装**[ isomorphic-ws](https://github.com/heineiuo/isomorphic-ws)**。
+
+总之就是不知道为什么会有这么奇怪的地方，我的理解是node.js本身还是服务端，并不完全是客户端。
