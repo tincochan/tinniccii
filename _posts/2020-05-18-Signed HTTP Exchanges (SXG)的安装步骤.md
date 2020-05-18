@@ -20,7 +20,7 @@ tags: [后端]
 
 - OpenSSL 1.1.1：系统是Ubuntu 18.04 LTS和amd64 ISA。
 - ```sudo```安装命令：（记不住就李彦宏，我也记不住几条linux命令，你要搞运维还是老老实实多背几条）
-- ```ngix```作为HTTP服务器。
+- ```nginx```作为HTTP服务器。
 - 证书生产工具用的是```DigiCert```：好些目前SXG的相关扩展插件也只能用这个玩意儿。
 
 假设有个现成的域名是```tincochan.com```。
