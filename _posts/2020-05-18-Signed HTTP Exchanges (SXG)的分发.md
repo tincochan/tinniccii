@@ -96,7 +96,7 @@ sudo systemctl restart nginx.service
 add_header link <https://distributor.test/website.test/app.js.sxg>;rel="alter...
 ```
 
-实际生产中不可能这么简单，因为会有很多subresources文件，也就是说你要在相应所需要得文件中都得加上对应得响应头，
+实际生产中不可能这么简单，因为会有很多subresources文件，也就是说你要在相应所需要的文件中都得加上对应的响应头去指向源相应的文件。
 
 现在好像也没什么简单的方法，等Google的大神更新了。
 
