@@ -86,7 +86,7 @@ https://tinyurl.com/y8dapg5u
 
 [4] Allem Huang and Raymond Wu. Deep Learning for Music. Stanford University.
 
- https://cs224d.stanford.edu/reports/ allenh.pdf 
+ https://cs224d.stanford.edu/reports/allenh.pdf 
 
 [5] Alex Graves. Generating Sequences With Recurrent Neural Networks. Department of Computer Science University of Toronto. 
 
