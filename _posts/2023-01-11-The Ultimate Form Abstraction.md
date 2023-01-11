@@ -267,13 +267,7 @@ export function App() {
 
 ```
 
-Here's a look at everything we've done so far:
-
-<iframe
-  src="https://stackblitz.com/edit/the-ultimate-form-abstraction-p1?embed=1&file=src/App.tsx&theme=dark&view=editor&ctl=1"
-  class="w-full h-500px border-sm overflow-hidden"
-  title="Stackblitz Demo for Part 1"
-></iframe>
+Here's a look at everything we've done so far...
 
 > Sidenote: 
 > I think demos like this are a good example of what TypeScript's developer experience should be -
@@ -498,12 +492,6 @@ Lastly, we'll need to give each `Input` a label:
 ```
 
 Now seems like the right time for another demo!
-
-<iframe
-  src="https://stackblitz.com/edit/the-ultimate-form-abstraction-p2?embed=1&file=src/App.tsx&theme=dark&view=editor&ctl=1"
-  class="w-full h-500px border-sm overflow-hidden"
-  title="Stackblitz Demo for Part 2"
-></iframe>
 
 ## A Wider Selection of Form Elements
 
