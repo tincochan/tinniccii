@@ -101,6 +101,8 @@ print(f"Loaded {num_batches} in {prev_time - start_time:0.2f} seconds")
 
 I measured the number on an AMD Threadripper 3960X 24-Core processor machine with 256GB of memory. The data are stored on an M.2 SSD. For the PyTorch dataloader, I set with `num_workers=24`, and for the TensorFlow datasets I added `num_parallel_calls/num_parallel_reads=tf.data.AUTOTUNE` to the elementary operations on the dataset object.
 
+
+
 | **Implementation**               | **Throughput** |
 | -------------------------------- | -------------- |
 | TensorFlow (no augmentation)     | ~4100 images/s |
@@ -108,6 +110,8 @@ I measured the number on an AMD Threadripper 3960X 24-Core processor machine wit
 | torchvision (RandAugment)        | ~4300 images/s |
 | keras-cv (RandAugment)           | ~1700 images/s |
 | tf-models-official (RandAugment) | ~2600 images/s |
+
+
 
 Both pipelines achieved roughly the same loading speed without data augmentation enabled. Quite surprisingly, the throughput of the torchvision dataloader is very little affected by the data augmentation method, i.e., a 5% reduction. Conversely, both TensorFlow pipelines significantly slowed down after adding RandAugment in the loader. Even more strangely, the `tf-models-official` implementation provides a more than 50% higher throughput than the `keras-cv` version.
 
