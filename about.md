@@ -31,11 +31,7 @@ feature_image:
 
 ** **我的技术清单包括但不限于：
 
-** ** ** **前端：html/css/javascript以及node.js
-
-** ** ** **后端：java以及相关框架spring boot/spring cloud
-
-** ** ** **数据分析和算法相关：python以及相关工具包numpy、pandas、tensorflow和pytorch
+** ** ** **Natural Language Processing, Machine Learning, Data Analytics, Data Visualization, Database Systems & Information Modelling • Software Engineering • Web Development, and more!
 
 ** **另外我很喜欢主机游戏和各种球类运动，同时我也是一名翻译爱好者。
 
