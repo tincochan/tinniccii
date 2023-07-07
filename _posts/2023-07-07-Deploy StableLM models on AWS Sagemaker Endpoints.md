@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploy StableLM models on AWS Sagemaker Endpoints"
-description: "As of 30 April 2023, the process of deploying the model on Sagemaker Endpoints is not as straightforward as some of the other models on HuggingFace, due to the need to package custom inference code with the model. "
+description: "the process of deploying the model on Sagemaker Endpoints is not as straightforward as some of the other models on HuggingFace, due to the need to package custom inference code with the model. "
 date: 2023-07-07
 tags: [算法]
 ---
@@ -26,9 +26,9 @@ Make sure you have *git* and *git-lfs* installed on your system. Simply run the 
 
 ```bash
 Copycopy code to clipboard
-1# Make sure you have git-lfs installed (https://git-lfs.com)
-2git lfs install
-3git clone https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b
+# Make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b
 ```
 
 The model will then be available inside the directory *stablelm-tuned-alpha-7b*.
@@ -39,63 +39,63 @@ Change the directory to the model directory and create a directory called *code*
 
 ```bash
 Copycopy code to clipboard
-1cd stablelm-tuned-alpha-7b
-2mkdir code
+cd stablelm-tuned-alpha-7b
+mkdir code
 ```
 
 Create a file called *inference*.py inside the *code* directory and copy the following code into it:
 
 ```python
 Copycopy code to clipboard
-1from transformers import AutoModelForCausalLM, AutoTokenizer, StoppingCriteria, StoppingCriteriaList
-2import torch
-3
+from transformers import AutoModelForCausalLM, AutoTokenizer, StoppingCriteria, StoppingCriteriaList
+import torch
 
-4SYSTEM_PROMPT = """<|SYSTEM|># StableLM Tuned (Alpha version)
-5- StableLM is a helpful and harmless open-source AI language model developed by StabilityAI.
-6- StableLM is excited to be able to help the user, but will refuse to do anything that could be considered harmful to the user.
-7- StableLM is more than just an information source, StableLM is also able to write poetry, short stories, and make jokes.
-8- StableLM will refuse to participate in anything that could harm a human.
-9"""
-10
 
-11class StopOnTokens(StoppingCriteria):
-12    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:
-13        stop_ids = [50278, 50279, 50277, 1, 0]
-14        for stop_id in stop_ids:
-15            if input_ids[0][-1] == stop_id:
-16                return True
-17        return False
-18
+SYSTEM_PROMPT = """<|SYSTEM|># StableLM Tuned (Alpha version)
+- StableLM is a helpful and harmless open-source AI language model developed by StabilityAI.
+- StableLM is excited to be able to help the user, but will refuse to do anything that could be considered harmful to the user.
+- StableLM is more than just an information source, StableLM is also able to write poetry, short stories, and make jokes.
+- StableLM will refuse to participate in anything that could harm a human.
+"""
 
-19def model_fn(model_dir):
-20    # Load model from S3
-21    tokenizer = AutoTokenizer.from_pretrained(model_dir)
-22    model = AutoModelForCausalLM.from_pretrained(model_dir)
-23    model.half().cuda()
-24    return model, tokenizer
-25    
-26def predict_fn(data, model_and_tokenizer):
-27    
-28    model, tokenizer = model_and_tokenizer
-29    
-30    input = data.pop("input", None)
-31    
-32    prompt = f"{SYSTEM_PROMPT}<|USER|>{input}<|ASSISTANT|>"
-33    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
-34    input_ids = inputs['input_ids']
-35    tokens = model.generate(
-36      **inputs,
-37      max_new_tokens=128,
-38      temperature=0.5,
-39      do_sample=True,
-40      stopping_criteria=StoppingCriteriaList([StopOnTokens()])
-41    )
-42    # the code has been changed to only return the generated text, and not the original text
-43    # simply remove the slicing below to return the input text in addition to
-44    # the generated text
-45    output = tokenizer.decode(tokens[:, input_ids.shape[1]:][0], skip_special_tokens=True)
-46    return output
+
+class StopOnTokens(StoppingCriteria):
+    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:
+        stop_ids = [50278, 50279, 50277, 1, 0]
+        for stop_id in stop_ids:
+            if input_ids[0][-1] == stop_id:
+                return True
+        return False
+
+
+def model_fn(model_dir):
+    # Load model from S3
+    tokenizer = AutoTokenizer.from_pretrained(model_dir)
+    model = AutoModelForCausalLM.from_pretrained(model_dir)
+    model.half().cuda()
+    return model, tokenizer
+    
+def predict_fn(data, model_and_tokenizer):
+    
+    model, tokenizer = model_and_tokenizer
+    
+    input = data.pop("input", None)
+    
+    prompt = f"{SYSTEM_PROMPT}<|USER|>{input}<|ASSISTANT|>"
+    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
+    input_ids = inputs['input_ids']
+    tokens = model.generate(
+      **inputs,
+      max_new_tokens=128,
+      temperature=0.5,
+      do_sample=True,
+      stopping_criteria=StoppingCriteriaList([StopOnTokens()])
+    )
+    # the code has been changed to only return the generated text, and not the original text
+    # simply remove the slicing below to return the input text in addition to
+    # the generated text
+    output = tokenizer.decode(tokens[:, input_ids.shape[1]:][0], skip_special_tokens=True)
+    return output
 ```
 
 This script now includes the custom code needed for reading the model correctly and making predictions. I've included some slicing on the tokens to only return the generated text, and not the original text. You can remove this if you want to return the original text as well.
@@ -110,7 +110,7 @@ Assuming you are inside the *stablelm-tuned-alpha-7b* directory, run the followi
 
 ```bash
 Copycopy code to clipboard
-1tar zcvf model.tar.gz *
+tar zcvf model.tar.gz *
 ```
 
 The command includes all the files within the above directory in the *model.tar.gz*. It takes around 30mins to run on my M1 Mac.
@@ -129,7 +129,7 @@ Make sure to install the Sagemaker SDK first in your Python environment:
 
 ```bash
 Copycopy code to clipboard
-1pip install sagemaker
+pip install sagemaker
 ```
 
 Make sure that you have your S3 object URL ready. It starts with `s3://`. Please make sure that you have your AWS credentials set up in your environment as well. You can follow the [official AWS guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) on how to do this.
@@ -138,23 +138,23 @@ Now, you can run the following Python code to create the endpoint.
 
 ```python
 Copycopy code to clipboard
-1import sagemaker
-2from sagemaker.huggingface.model import HuggingFaceModel
-3
+import sagemaker
+from sagemaker.huggingface.model import HuggingFaceModel
 
-4MODEL_S3_LOCATION = "" # fill in with your S3 object URL for the model
-5
 
-6huggingface_model = HuggingFaceModel(
-7    model_data=MODEL_S3_LOCATION, 
-8    role= sagemaker.get_execution_role(), # IAM role with permissions to create an Endpoint
-9    transformers_version="4.26",
-10    pytorch_version="1.13",
-11    py_version="py39"
-12)
-13
+MODEL_S3_LOCATION = "" # fill in with your S3 object URL for the model
 
-14predictor = huggingface_model.deploy(initial_instance_count=1, instance_type="ml.g5.4xlarge")
+
+huggingface_model = HuggingFaceModel(
+    model_data=MODEL_S3_LOCATION, 
+    role= sagemaker.get_execution_role(), # IAM role with permissions to create an Endpoint
+    transformers_version="4.26",
+    pytorch_version="1.13",
+    py_version="py39"
+)
+
+
+predictor = huggingface_model.deploy(initial_instance_count=1, instance_type="ml.g5.4xlarge")
 ```
 
 The code above creates a HuggingFaceModel object and deploys it to a Sagemaker Endpoint. It uses the *ml.g5.4xlarge* instance type, but you can experiment with other instance types if you are using a smaller model (like the 3b variant).
@@ -163,7 +163,7 @@ You can invoke the endpoint using the following code:
 
 ```python
 Copycopy code to clipboard
-1predictor.predict({ "input": "Write me a poem about AWS."})
+predictor.predict({ "input": "Write me a poem about AWS."})
 ```
 
 ## References
