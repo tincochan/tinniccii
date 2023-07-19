@@ -13,7 +13,7 @@ textarea {
 }
 
 html {
-  border: 15px solid #81D8D0;
+  border: 15px solid linear-gradient(90deg,hsl(6deg 100% 50%) 0%,hsl(29deg 100% 50%) 12%,hsl(45deg 100% 50%) 20%,hsl(59deg 100% 50%) 28%,hsl(80deg 100% 64%) 35%,hsl(117deg 100% 73%) 41%,hsl(159deg 100% 50%) 48%,hsl(183deg 100% 47%) 55%,hsl(197deg 100% 50%) 62%,hsl(211deg 100% 51%) 70%,hsl(266deg 77% 66%) 78%,hsl(310deg 70% 55%) 88%,hsl(327deg 100% 50%) 100%);
   box-sizing: border-box;
 
   @media only screen and (max-width: 600px) {
