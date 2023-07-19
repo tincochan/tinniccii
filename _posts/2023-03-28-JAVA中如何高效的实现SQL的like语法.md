@@ -83,7 +83,7 @@ try {
 
 ## 正则表达式实现
 
-Java的正则表达式与SQL的"like"具有不同的语法。最重要的就是必须转义Java视为特殊字符的任何字符，简单处理了下regexParse函数里面就是对于特殊符号的遍历替换操作([](){}.*+?$^|#\)等。
+Java的正则表达式与SQL的"like"具有不同的语法。最重要的就是必须转义Java视为特殊字符的任何字符，简单处理了下regexParse函数里面就是对于特殊符号的遍历替换操作比如/([](){}.*+?$^|#\)/等。
 
 ```java
 public static boolean like(final String dest, final String pattern) {
