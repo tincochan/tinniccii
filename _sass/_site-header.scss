@@ -66,18 +66,10 @@
 }
 
 .menu-item :before{
-    transition: all 0.8s cubic-bezier(0.7, -0.5, 0.2, 2);
-    width: 1%;
-    height: 100%;
-    background: #ff5964;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.menu-item:hover:before {
-  background: #ff5964;
-  width: 100%;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .menu-toggle {
