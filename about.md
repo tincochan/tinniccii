@@ -5,7 +5,7 @@ description: An optional about page for Tinniccii
 feature_image: 
 ---
 
-<img src="images/about.png" alt="about" style="margin: 0 auto"/>
+<img src="/about.png" alt="about" style="margin: 0 auto"/>
 
 
 
