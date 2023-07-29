@@ -11,6 +11,12 @@ feature_image:
 
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
+> ** **bachelor：SICAU
+>
+> ** **Master：SYSU
+>
+> ** **PhD： Max Planck Institute of Biochemistry（LMU Munich and Cambridge University）
+
 ##### 一、
 
 ** **搭建这篇博客的初衷是苦于国内没有好的线上写文字的平台：过度的审查以及不成熟的生态吧，再加上大多数国内博客的样式不符合我的审美观。
