@@ -13,7 +13,7 @@ feature_image:
 
 - bachelor：SICAU
 - Master：SYSU
-- PhD： Max Planck Institute of Biochemistry（LMU Munich and Cambridge University）
+- PhD： MPI of Biochemistry（LMU Munich and Cambridge University）
 
 ##### 一、
 
