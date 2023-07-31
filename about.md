@@ -11,11 +11,10 @@ feature_image:
 
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
-** **· bachelor：SICAU
+- bachelor：SICAU
 
-** **· Master：SYSU
-
-** **· PhD： Max Planck Institute of Biochemistry（LMU Munich and Cambridge University）
+- Master：SYSU
+- PhD： Max Planck Institute of Biochemistry（LMU Munich and Cambridge University）
 
 ##### 一、
 
