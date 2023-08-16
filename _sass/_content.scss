@@ -149,6 +149,9 @@
   font-weight: 500;
   a {
     margin-right: 5px;
+    background-color: var(--button-background);
+    border: 2px solid transparent;
+    border-radius: 0.5em;
     &:before {
       content: "\0023";
     }
