@@ -34,6 +34,8 @@ navigation:
     url: /about/
   - text: 归档标签
     url: /tags/
+  - text: 学术
+    url: https://www.researchgate.net/profile/Meng-Chen-49
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
