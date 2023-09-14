@@ -3,7 +3,7 @@ layout: post
 title: "Why is it hard to learn another programming language?"
 description: "Learning my first programming language was really hard."
 date: 2023-01-16
-tags: [不吐不快]
+tags: [Talk That Talk]
 ---
 
 Learning my first programming language was really hard. 
