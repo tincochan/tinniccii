@@ -3,7 +3,7 @@ layout: post
 title: "Deploy StableLM models on AWS Sagemaker Endpoints"
 description: "the process of deploying the model on Sagemaker Endpoints is not as straightforward as some of the other models on HuggingFace, due to the need to package custom inference code with the model. "
 date: 2023-07-07
-tags: [算法]
+tags: [Algorithm]
 ---
 
 I'll be deploying the StableLM-Tuned-Alpha 7b variant on the model on an ml.g5.4xlarge instance. StableLM-Tuned-Alpha is a suite of 3B and 7B parameter decoder-only language models built on top of the StableLM-Base-Alpha models and further fine-tuned on various chat and instruction-following datasets.

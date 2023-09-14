@@ -3,7 +3,7 @@ layout: post
 title: "Building on Top of Black Magic"
 description: "Deep generative models are a house of cards built on top of black magic. At least, that’s what I’ve resigned myself to believe."
 date: 2023-09-14
-tags: [算法]
+tags: [Algorithm]
 ---
 
 Deep generative models are a house of cards built on top of black magic. At least, that’s what I’ve resigned myself to believe.

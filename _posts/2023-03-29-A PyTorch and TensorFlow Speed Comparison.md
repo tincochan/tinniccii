@@ -3,7 +3,7 @@ layout: post
 title: "A PyTorch and TensorFlow Speed Comparison"
 description: "A performance comparison of RandAugment data augmentation between PyTorch and TensorFlow"
 date: 2023-03-29
-tags: [算法]
+tags: [Algorithm]
 ---
 
 A performance comparison of RandAugment data augmentation between PyTorch and TensorFlow.

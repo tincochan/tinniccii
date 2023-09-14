@@ -3,7 +3,7 @@ layout: post
 title: "Video Game Music Generation Using LSTM"
 description: "LSTM"
 date: 2020-10-02
-tags: [算法]
+tags: [Algorithm]
 ---
 
 Author：Tinc0 Chan and His Alienware
