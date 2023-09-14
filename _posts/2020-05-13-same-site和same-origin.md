@@ -3,7 +3,7 @@ layout: post
 title: "same-site和same-origin"
 description: "弄明白这两个的区别"
 date: 2020-05-13
-tags: [fullstack]
+tags: [Fullstack]
 ---
 
 必须要说same-site和same-origin这两个概念是有区别的，我以前经常弄混...

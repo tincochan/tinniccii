@@ -3,7 +3,7 @@ layout: post
 title: "JAVA中如何高效的实现SQL的like语法"
 description: "刘海屏适配"
 date: 2023-03-28
-tags: [backend]
+tags: [Backend]
 ---
 
 主要介绍了一些主流的解析器是怎么实现like的语法逻辑，接着分析了几种实现方式的优劣，最终采用状态机的方式，针对场景一步一步进行性能优化。

@@ -3,7 +3,7 @@ layout: post
 title: "Signed HTTP Exchanges (SXG)的安装步骤"
 description: "SXG安装步骤"
 date: 2020-05-18
-tags: [backend]
+tags: [Backend]
 ---
 
 记录Signed HTTP Exchanges (SXG)的安装步骤：

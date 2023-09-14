@@ -3,7 +3,7 @@ layout: post
 title: "The Ultimate Form Abstraction"
 description: "Typesafe forms in React? Sounds like a job for React Hook Form and Zod!"
 date: 2023-01-11
-tags: [frontend]
+tags: [Frontend]
 ---
 
 Typesafe forms in React? Sounds like a job for React Hook Form and Zod!"

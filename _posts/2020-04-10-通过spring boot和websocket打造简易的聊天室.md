@@ -3,7 +3,7 @@ layout: post
 title: "通过spring boot和websocket打造简易的聊天室"
 description: "通过spring boot和websocket打造简易的聊天室"
 date: 2020-04-10
-tags: [backend]
+tags: [Backend]
 ---
 
 我自己的工作很少用到websocket这项技术，不过想到以后数据的实时更新运用websocket必不可少，还是试试。
