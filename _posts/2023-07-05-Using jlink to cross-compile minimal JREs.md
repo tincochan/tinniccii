@@ -3,7 +3,7 @@ layout: post
 title: "Using jlink to cross-compile minimal JREs"
 description: "turbine"
 date: 2023-07-05
-tags: [后端]
+tags: [backend]
 ---
 
 没什么，我只是发现自己超级懒，于是再写个笔记。

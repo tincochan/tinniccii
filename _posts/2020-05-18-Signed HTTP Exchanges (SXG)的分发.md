@@ -3,7 +3,7 @@ layout: post
 title: "Signed HTTP Exchanges (SXG)的分发"
 description: "SXG分发步骤"
 date: 2020-05-18
-tags: [后端]
+tags: [backend]
 ---
 
 记录Signed HTTP Exchanges (SXG)的分发步骤：

@@ -3,7 +3,7 @@ layout: post
 title: "我要不要学linux以及shell？"
 description: "我好像对运维不是太感兴趣。"
 date: 2020-04-20
-tags: [全栈]
+tags: [fullstack]
 ---
 
 因为我最近开始尝试serverless，所以难免会接触一些linux和运维方面的知识。
