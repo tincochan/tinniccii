@@ -3,7 +3,7 @@ layout: post
 title: "number inputs的替换方案"
 description: "input type=number的替换方案"
 date: 2020-03-25
-tags: [前端]
+tags: [frontend]
 ---
 
 ```<input type="number">```的作用不需要多讲，但是有一种情况就是比如说银行的app，当你输入自己的信用卡账号的时候，你希望十几位的数字每输入4个数字的时候app输入框显示会自动插入空格。
