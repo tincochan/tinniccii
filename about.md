@@ -13,7 +13,7 @@ feature_image:
 
 - Bachelor：SICAU
 - Master：SYSU （Department of Mathematics & LMNS, Fudan University. if your mentor is too rich, it looks strange.）
-- PhD： MPI of Biochemistry（LMU Munich and Cantab）
+- PhD： MPI of Biochemistry or Mathematics（LMU Munich and Cantab）
 
 ##### 一、
 
