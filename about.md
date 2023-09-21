@@ -11,7 +11,7 @@ feature_image:
 
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
-- Bachelor：SICAU （Department of Mathematics & LMNS, Fudan University. if your fortune is too great, it looks strange.）
+- Bachelor：SICAU （Department of Mathematics & LMNS, Fudan University. if you have a stroke of fortune, it looks strange.）
 - Master：SYSU 
 - PhD： MPI of Biochemistry or Mathematics（LMU Munich and Cantab）
 
