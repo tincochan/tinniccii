@@ -12,7 +12,7 @@ feature_image:
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
 - Bachelor：SICAU
-- Master：SYSU
+- Master：SYSU （Department of Mathematics & LMNS, Fudan University. if your mentor is too rich, it looks strange.）
 - PhD： MPI of Biochemistry（LMU Munich and Cantab）
 
 ##### 一、
