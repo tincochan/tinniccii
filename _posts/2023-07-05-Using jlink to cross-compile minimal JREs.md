@@ -59,7 +59,7 @@ java.base
 
 Our program is so simple that it only needs the “base” module. Now with `jlink` we can produce a minimal JRE.
 
-```
+
 $ zulu19.30.11-ca-jdk19.0.1-macosx_aarch64/bin/jlink \
       --compress 2 \
       --strip-debug \
