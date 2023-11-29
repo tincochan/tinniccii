@@ -11,7 +11,8 @@ feature_image:
 
 ** **在此对于你的来访和阅读表示感谢，我是一名90后的blogger。
 
-- Bachelor：SICAU （Department of Mathematics & LMNS, Fudan University. if you have a stroke of fortune, it looks strange.）
+- Bachelor：SICAU 
+- Exchange：Department of Mathematics & LMNS, Fudan University. 
 - Master：SYSU 
 - PhD： MPI of Biochemistry or Mathematics（LMU Munich and Cantab）
 
