@@ -1,14 +1,14 @@
 ---
-title: "Notes on PyTorch Tensor Representation and Autograd"
-date: "2023-12-24"
-tags: [Algorithm]
 layout: Post
+title: "Notes on PyTorch Tensor Representation and Autograd"
 description: "Notes on PyTorch Tensor Internals including Strided Representation, Strides, View, and Autograd"
+date: 2023-12-24
+tags: [Algorithm]
 ---
 
 Notes on PyTorch Tensor Internals including Strided Representation, Strides, View, and Autograd.
 
-<!--more-->*
+<!--more-->
 
 ## Readings
 
