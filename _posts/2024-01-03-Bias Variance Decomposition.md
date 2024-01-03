@@ -11,7 +11,9 @@ This is my notes for the following resources:
 - CS4780 at Cornell University [^1]
 - mlxtend [^2]
 
-<!--more--Consider a binary classification task that requires a dataset of $N$ examples.
+<!--more-->
+
+Consider a binary classification task that requires a dataset of $N$ examples.
 Let's denote the dataset as $D = \{(\bf{x}_i, y_i)\}_{i=1}^N$, where $\mathbf{x}_i \in \mathbb{R}^d$ and $y_i \in \mathbb{R}$ or $y_i \in \{0, 1\}$.
 
 In other words:
